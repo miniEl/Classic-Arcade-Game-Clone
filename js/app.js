@@ -34,7 +34,7 @@ Enemy.prototype.update = function(dt) {
     var bottomY = this.y + 50;
 
     if (player.x > leftX && player.x < rightX && player.y > topY && player.y < bottomY) {
-        //player.reset();
+        player.reset();
     }
 };
 
